@@ -1,0 +1,6 @@
+n=input()
+l=[]
+for i in range(0,len(n)):
+    l.append(n[i])
+s=set(l)
+print(len(s))
